@@ -1,0 +1,3 @@
+obj = @;
+obj.x = 5;
+println(obj.x+1);

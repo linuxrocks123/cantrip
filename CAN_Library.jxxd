@@ -1,0 +1,6 @@
+public class CAN_Library
+{
+     public static byte[] source = {
+          #include "library.xxd"
+     };
+}

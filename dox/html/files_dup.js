@@ -1,0 +1,28 @@
+var files_dup =
+[
+    [ "Aggregate_Access_Expression.java", "Aggregate__Access__Expression_8java.html", "Aggregate__Access__Expression_8java" ],
+    [ "Array_Access_Expression.java", "Array__Access__Expression_8java.html", "Array__Access__Expression_8java" ],
+    [ "ASTNode.java", "ASTNode_8java.html", "ASTNode_8java" ],
+    [ "baker.py", "baker_8py.html", "baker_8py" ],
+    [ "Binary_Expression.java", "Binary__Expression_8java.html", "Binary__Expression_8java" ],
+    [ "Builtin_Statement_List.java", "Builtin__Statement__List_8java.html", "Builtin__Statement__List_8java" ],
+    [ "Cantrip.l", "Cantrip_8l.html", "Cantrip_8l" ],
+    [ "Expression.java", "Expression_8java.html", "Expression_8java" ],
+    [ "Expression_List.java", "Expression__List_8java.html", "Expression__List_8java" ],
+    [ "Expression_Statement.java", "Expression__Statement_8java.html", "Expression__Statement_8java" ],
+    [ "Function.java", "Function_8java.html", "Function_8java" ],
+    [ "Function_Call_Expression.java", "Function__Call__Expression_8java.html", "Function__Call__Expression_8java" ],
+    [ "Identifier.java", "Identifier_8java.html", "Identifier_8java" ],
+    [ "If_Statement.java", "If__Statement_8java.html", "If__Statement_8java" ],
+    [ "Interpreter.java", "Interpreter_8java.html", "Interpreter_8java" ],
+    [ "Parameter.java", "Parameter_8java.html", "Parameter_8java" ],
+    [ "Parameter_List.java", "Parameter__List_8java.html", "Parameter__List_8java" ],
+    [ "Statement.java", "Statement_8java.html", "Statement_8java" ],
+    [ "Statement_List.java", "Statement__List_8java.html", "Statement__List_8java" ],
+    [ "Token.java", "Token_8java.html", "Token_8java" ],
+    [ "Type.java", "Type_8java.html", "Type_8java" ],
+    [ "Unary_Expression.java", "Unary__Expression_8java.html", "Unary__Expression_8java" ],
+    [ "Value.java", "Value_8java.html", "Value_8java" ],
+    [ "Visitor.java", "Visitor_8java.html", "Visitor_8java" ],
+    [ "While_Statement.java", "While__Statement_8java.html", "While__Statement_8java" ]
+];

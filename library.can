@@ -1,0 +1,18 @@
+println = lambda(str) {
+    print(str);
+    print("\n");
+};
+
+atoi = lambda(str) {
+    i = str.length - 1;
+    column = 1;
+    answer = 0;
+    while(i >= 0)
+    {
+        answer = answer + column * (str[i] - '0');
+        column = column * 10;
+        i = i - 1;
+    }
+
+    answer;
+}; 

@@ -1,0 +1,87 @@
+Instructional language for CSCI4330 at Georgia College.
+
+Goals:
+- Interpreter is simple enough for students to understand
+- Familiar to Java programmers
+- STS Editor should support this
+- Reuse Philotes infrastructure
+
+First-class types:
+- integers (longs)
+- chars
+- floats (doubles)
+- functions
+- arbitrary aggregates with dictionary semantics
+- fixed-length arrays
+- References but no pointers: reassign references with #=, which is
+  not overloadable
+
+Language-native functions:
+- print function
+- some way to get user input
+- @: create empty aggregate
+- clone(): copy right param to left, both params references
+
+Standard library contains:
+- ArrayList or equivalent
+- TreeMap or equivalent
+
+Features:
+- Global variables
+- Functions and local variables
+- Operator overloading
+  - Assignment operator doubles as copy constructor
+  - + operator predefined for list concatenation
+  - assign -> =, add -> +, subtract -> -, multiply -> *,
+    divide -> /, modulo -> %, lt -> <, gt -> >, lte -> <=,
+    gte -> >=, equals -> ==, not -> !, not_equals -> !=
+- Closures, implemented by "static" variables in functions
+- No -> operator; . operator implicitly dereferences
+- Everything 
+- return statement is by reference
+
+Conventions:
+- Constructors implemented as global functions that construct an
+  aggregate with the appropriate values.
+
+---
+
+Hello World:
+
+println("Hello World!");
+
+Collatz:
+
+x = atoi(read_line("Enter a positive number: "))
+while(x > 1)
+{
+    if(x%2==0)
+        x = x/2;
+    else
+        x = x*3 + 1;
+    println(x);
+}
+
+Class Example:
+
+construct_money = lambda()
+{
+    static add = lambda(left,&right) //left by copy, right by reference
+        {
+            left.value = left.value + other.value;
+            left;
+        };
+    
+    static assign = lambda(&this,&other) //both passed by reference (else infinite recursion)
+        {
+            clone(this,other);
+            this;
+        };
+
+    to_return = @;
+    to_return.value = 0;
+    to_return.add #= add; //could pass by copy, but more efficient
+    to_return.assign #= assign; //ditto
+
+    to_return; //no explicit returns
+};

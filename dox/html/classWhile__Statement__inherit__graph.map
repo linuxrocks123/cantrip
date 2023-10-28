@@ -1,0 +1,5 @@
+<map id="While_Statement" name="While_Statement">
+<area shape="rect" id="node1" title="A while statement, containing a condition and a body." alt="" coords="5,152,128,177"/>
+<area shape="rect" id="node2" href="$classStatement.html" title=" " alt="" coords="25,79,108,104"/>
+<area shape="rect" id="node3" href="$classASTNode.html" title="Superclass of everything that can be in the AST." alt="" coords="27,5,106,31"/>
+</map>

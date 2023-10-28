@@ -1,0 +1,12 @@
+<map id="Interpreter.visit" name="Interpreter.visit">
+<area shape="rect" id="node1" title=" " alt="" coords="5,136,115,162"/>
+<area shape="rect" id="node2" href="$classInterpreter.html#a0957ff56a6ef24b2f6fcb43b1e5c46ef" title=" " alt="" coords="599,15,735,40"/>
+<area shape="rect" id="node3" href="$classInterpreter.html#a90ad33ab4e37639904b52357d2cc7b47" title=" " alt="" coords="171,72,293,112"/>
+<area shape="rect" id="node5" href="$classInterpreter.html#a48b9492ee66efe9c226d070ba6af58fe" title=" " alt="" coords="360,129,492,169"/>
+<area shape="rect" id="node8" href="$classASTNode.html#aa6d22015494be095aa49ed69bb125f63" title=" " alt="" coords="357,194,495,219"/>
+<area shape="rect" id="node9" href="$classInterpreter.html#abb1270aeee3a6ba7a5df35aedeb326dd" title=" " alt="" coords="163,237,301,277"/>
+<area shape="rect" id="node4" href="$classInterpreter.html#a03725b54bb30aafead033af12d53ec8b" title=" " alt="" coords="363,65,489,105"/>
+<area shape="rect" id="node6" href="$classFunction__Call__Expression.html#ae3c5bf8a680257601a2a89232f55e1e5" title=" " alt="" coords="551,136,784,162"/>
+<area shape="rect" id="node7" href="$classVisitor.html#a3ec10e9e0d3e90aea3563979116d5ec6" title=" " alt="" coords="832,136,919,162"/>
+<area shape="rect" id="node10" href="$classInterpreter.html#a2f720422b74c177c2dda71707d3ad200" title="These four redundant methods should be a C macro or C++ template. Java is inadequate." alt="" coords="349,244,503,270"/>
+</map>

@@ -1,0 +1,2 @@
+- Support STATIC
+- Figure out how to do closures.

@@ -1,0 +1,5 @@
+ag = @;
+ag.ary = [3];
+ag.ary[0] = @;
+ag.ary[0].x = 2;
+println(ag.ary[0].x);

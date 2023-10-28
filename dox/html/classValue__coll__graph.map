@@ -1,0 +1,11 @@
+<map id="Value" name="Value">
+<area shape="rect" id="node1" title=" " alt="" coords="153,280,208,305"/>
+<area shape="rect" id="node2" href="$classExpression.html" title="Abstract superclass of all expressions." alt="" coords="11,143,97,168"/>
+<area shape="rect" id="node3" href="$classASTNode.html" title="Superclass of everything that can be in the AST." alt="" coords="5,5,84,31"/>
+<area shape="rect" id="node8" href="$classStatement__List.html" title=" " alt="" coords="83,93,193,119"/>
+<area shape="rect" id="node4" href="$enumType.html" title="Enumeration of all possible value types in the Cantrip language." alt="" coords="205,192,255,217"/>
+<area shape="rect" id="node5" title=" " alt="" coords="279,192,450,217"/>
+<area shape="rect" id="node6" href="$classFunction.html" title=" " alt="" coords="102,192,174,217"/>
+<area shape="rect" id="node7" title=" " alt="" coords="217,93,376,119"/>
+<area shape="rect" id="node9" title=" " alt="" coords="108,5,267,31"/>
+</map>

@@ -1,0 +1,23 @@
+To build from scratch:
+- Requires jflex (easily available online)
+- Requires bison
+- Requires xxd
+- Requires bake (github.com/linuxrocks123/bake)
+
+You can just do
+
+javac *.java
+
+If you don't want to modify anything, though.
+
+To run:
+
+java Cantrip testcases/collatz2.can
+
+Have fun.
+
+Point your web browser at:
+
+dox/html/index.html
+
+For some docs

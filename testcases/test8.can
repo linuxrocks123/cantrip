@@ -1,0 +1,27 @@
+foldl = lambda(f,x,l)
+{
+    if(l.length==0)
+        x;
+    else
+    {
+        ary = [l.length-1];
+        i=0;
+        while(i < ary.length)
+        {
+           ary[i] = l[i+1];
+           i=i+1;
+        }
+        foldl(f,f(l[0],x),ary);
+    }
+};
+
+sum_this = [5];
+sum_this[0] = 1;
+sum_this[1] = 2;
+sum_this[2] = 3;
+sum_this[3] = 4;
+sum_this[4] = 5;
+
+plus = lambda(x,y) { x + y; };
+
+println(foldl(plus,0,sum_this));

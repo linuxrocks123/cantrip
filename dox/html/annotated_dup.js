@@ -1,0 +1,26 @@
+var annotated_dup =
+[
+    [ "Aggregate_Access_Expression", "classAggregate__Access__Expression.html", "classAggregate__Access__Expression" ],
+    [ "Array_Access_Expression", "classArray__Access__Expression.html", "classArray__Access__Expression" ],
+    [ "ASTNode", "classASTNode.html", "classASTNode" ],
+    [ "Binary_Expression", "classBinary__Expression.html", "classBinary__Expression" ],
+    [ "Builtin_Statement_List", "classBuiltin__Statement__List.html", "classBuiltin__Statement__List" ],
+    [ "Expression", "classExpression.html", "classExpression" ],
+    [ "Expression_List", "classExpression__List.html", "classExpression__List" ],
+    [ "Expression_Statement", "classExpression__Statement.html", "classExpression__Statement" ],
+    [ "Function", "classFunction.html", "classFunction" ],
+    [ "Function_Call_Expression", "classFunction__Call__Expression.html", "classFunction__Call__Expression" ],
+    [ "Identifier", "classIdentifier.html", "classIdentifier" ],
+    [ "If_Statement", "classIf__Statement.html", "classIf__Statement" ],
+    [ "Interpreter", "classInterpreter.html", "classInterpreter" ],
+    [ "Parameter", "classParameter.html", "classParameter" ],
+    [ "Parameter_List", "classParameter__List.html", "classParameter__List" ],
+    [ "Statement", "classStatement.html", "classStatement" ],
+    [ "Statement_List", "classStatement__List.html", "classStatement__List" ],
+    [ "Token", "classToken.html", "classToken" ],
+    [ "Type", "enumType.html", "enumType" ],
+    [ "Unary_Expression", "classUnary__Expression.html", "classUnary__Expression" ],
+    [ "Value", "classValue.html", "classValue" ],
+    [ "Visitor", "classVisitor.html", "classVisitor" ],
+    [ "While_Statement", "classWhile__Statement.html", "classWhile__Statement" ]
+];

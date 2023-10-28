@@ -1,0 +1,9 @@
+goofy = @;
+goofy.val = 0;
+goofy.index = lambda(&this,x) {
+   this.val = this.val + x;
+   println(this.val);
+};
+goofy[2];
+goofy[5];
+println(goofy.val);
